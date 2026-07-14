@@ -1,0 +1,14 @@
+data/
+runs/
+weights/
+experiments/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.zip
+*.tar
+*.tar.gz
+__pycache__/
+.ipynb_checkpoints/
+.env

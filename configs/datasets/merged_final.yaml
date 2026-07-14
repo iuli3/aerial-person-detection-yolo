@@ -1,0 +1,6 @@
+path: data/merged_final
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names: ['Person']

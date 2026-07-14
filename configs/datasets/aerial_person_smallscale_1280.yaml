@@ -1,0 +1,6 @@
+path: data/aerial_person_smallscale_1280
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: person

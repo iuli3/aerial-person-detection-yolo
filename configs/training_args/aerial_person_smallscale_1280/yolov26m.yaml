@@ -1,0 +1,18 @@
+# YOLOv26m @ 1280px - aerial_person_smallscale
+model: yolov26m.pt
+data: ../datasets/aerial_person_smallscale_1280.yaml
+epochs: 50
+imgsz: 1280
+batch: -1
+device: 0
+optimizer: AdamW
+lr0: 0.0005
+lrf: 0.01
+weight_decay: 0.001
+mosaic: 0.7
+mixup: 0.05
+warmup_epochs: 5
+patience: 12
+save: True
+plots: True
+exist_ok: True

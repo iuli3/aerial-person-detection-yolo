@@ -1,0 +1,16 @@
+# YOLOv12m @ 1280px - merged_1280_balanced
+model: yolov12m.pt
+data: ../datasets/merged_1280_balanced.yaml
+epochs: 50
+imgsz: 1280
+batch: -1
+device: 0
+optimizer: AdamW
+lr0: 0.0005
+lrf: 0.01
+weight_decay: 0.0005
+warmup_epochs: 5
+patience: 12
+save: True
+plots: True
+exist_ok: True

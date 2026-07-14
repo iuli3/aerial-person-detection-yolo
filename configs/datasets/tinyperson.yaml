@@ -1,0 +1,6 @@
+path: data/tinyperson
+train: images/test
+val: images/test
+test: images/test
+nc: 1
+names: ['Person']

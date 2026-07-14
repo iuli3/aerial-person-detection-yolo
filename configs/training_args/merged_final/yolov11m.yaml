@@ -1,0 +1,15 @@
+# YOLOv11m @ 640px - merged_final baseline
+model: yolov11m.pt
+data: ../datasets/merged_final_640.yaml
+epochs: 100
+imgsz: 640
+batch: -1
+device: 0
+optimizer: SGD
+lr0: 0.01
+lrf: 0.01
+warmup_epochs: 3
+patience: 20
+save: True
+plots: True
+exist_ok: True
