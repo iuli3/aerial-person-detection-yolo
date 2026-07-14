@@ -150,6 +150,18 @@ Training argument snapshots are available under:
 configs/training_args/
 ```
 
+## Model Sources
+
+The experiments use medium-scale YOLO detection models from the Ultralytics model family:
+
+| Model family | Medium model used | Official documentation |
+| --- | --- | --- |
+| YOLO11 | `yolo11m.pt` | <https://docs.ultralytics.com/models/yolo11/> |
+| YOLO12 | `yolo12m.pt` | <https://docs.ultralytics.com/models/yolo12/> |
+| YOLO26 | `yolo26m.pt` | <https://docs.ultralytics.com/models/yolo26/> |
+
+The medium variants were selected to keep the comparison consistent across model families while maintaining a practical balance between accuracy and computational cost.
+
 ## Evaluation
 
 Evaluation scripts are grouped by target dataset or benchmark.
