@@ -4,6 +4,16 @@ This repository contains the scripts used to prepare aerial and high-mounted per
 
 The code is organized as reproducibility material for research experiments. Dataset files, trained weights, and large experiment outputs are not included.
 
+## Associated Paper
+
+This repository contains reproducibility material for the article:
+
+**Towards Generalized Person Detection in Aerial Images: A Comparative Study of YOLO-Based Architectures Across Diverse View Scenarios**
+
+Authors: Iuliana Maria Țurcanu, Ioana Cișmaș, Ștefan-Adrian Toma.
+
+The associated restricted-access test dataset is named `aerial_person_test_dataset`. It is distributed separately from this code repository and contains the held-out YOLO-format test set used for aerial and top-view person detection evaluation.
+
 ## Repository Structure
 
 ```text
